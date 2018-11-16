@@ -264,7 +264,7 @@ except BaseException as e:
 
 #If we received the email, we exit and do nothing
 if EmailWasFound:
-	print('Yay, Night Jobs didnt crash!')
+	print('Yay, We found it!')
 	
 #If there is no email found, we must send an alert	
 else:
